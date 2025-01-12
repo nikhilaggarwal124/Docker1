@@ -1,4 +1,4 @@
-ensename: CI/CD Pipeline for Docker Image
+name: CI/CD Pipeline for Docker Image
 
 on:
   push:
