@@ -33,7 +33,7 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: ${{ secrets.DOCKER_USERNAME }}/expenseapp:latest
+        tags: ${{ secrets.DOCKER_USERNAME }}/myapp:latest
         cache-from: type=registry,ref=${{ secrets.DOCKER_USERNAME }}/expenseapp:latest
         cache-to: type=registry,ref=${{ secrets.DOCKER_USERNAME }}/expenseapp:latest,mode=max
 
